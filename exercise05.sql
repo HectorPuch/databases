@@ -24,4 +24,4 @@ CREATE TABLE procuradors (
     DNI VARCHAR(9),
     AssumptesId INT UNSIGNED,
     FOREIGN KEY (AssumptesId) REFERENCES assumptes(IdAssumptes)
-)
+);
