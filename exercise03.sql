@@ -33,3 +33,11 @@ CREATE TABLE matriculacions (
     FOREIGN KEY (alumnes_matriculacions) REFERENCES alumnes(NumMatricula) ON DELETE CASCADE,
     FOREIGN KEY (assignatures_matriculacions) REFERENCES assignatures(Codi) ON DELETE CASCADE
 );
+
+DESCRIBE alumnes;
+
+DESCRIBE professors;
+
+DESCRIBE assignatures;
+
+DESCRIBE matriculacions;
