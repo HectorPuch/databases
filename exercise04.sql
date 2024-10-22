@@ -29,3 +29,9 @@ CREATE TABLE regions (
     ProvinciesId INT UNSIGNED,
     FOREIGN KEY (ProvinciesId) REFERENCES provincies(CodiProvincies)
 );
+
+DESCRIBE localitats;
+
+DESCRIBE provincies;
+
+DESCRIBE regions;
