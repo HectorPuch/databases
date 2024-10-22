@@ -1,4 +1,4 @@
-USE bestiari
+USE bestiari;
 
 ALTER TABLE animals
     ADD PRIMARY KEY (nom);
