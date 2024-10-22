@@ -14,3 +14,7 @@ CREATE TABLE vehicles (
     ON DELETE SET NULL
     ON UPDATE CASCADE
 );
+
+DESCRIBE mecanics;
+
+DESCRIBE vehicles;
